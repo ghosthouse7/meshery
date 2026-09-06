@@ -129,9 +129,7 @@ function RemoteExtension() {
               />
             )}
           </NoSsr>
-        ) : (
-          <DefaultError permissionKey={Keys.ExtensibilityViewExtensions} />
-        )}
+        ) : null}
       </DynamicFullScreenLoader>
     </NoSsr>
   );
